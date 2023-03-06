@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio eventos e dom</title>
+    <style>
+        #input{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
 <!-- 
@@ -14,7 +19,19 @@ No evento de foco, modifique o background do input para amarelo.
 Quando o campo perder o foco, recupere o seu respectivo valor e:
 Caso o conteúdo contido no campo tenha menos de 3 caracteres o mesmo deve ter seu background alterado para vermelho.
 Caso o conteúdo contido no campo tenha 3 caracteres ou mais o background deve ser alterado para verde. -->
+    <input type="text" id="input" class="estilo1" onclick="acao1()" onfocus="" onblur="">
 
+    <script>
+        function acao(){
+            // document.getElementById('input')
+        }
+        function acao1(){
+            document.getElementById('input')
+        }
+        function acao2(){
+            // document.getElementById('input')
+        }
+    </script>
 </body>
 </html>
 
